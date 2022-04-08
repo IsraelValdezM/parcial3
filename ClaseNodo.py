@@ -6,10 +6,10 @@ class Nodo:
         self.dato=valor
         self.next=None
     #metodo para obtener el valor del dato o elemento
-    def obtenerDato(self):
+    def obtenerElDato(self):
         return self.dato
     #Metodo para obtener la referencia, puntero o apuntador
-    def obtenerSiguiente(self):
+    def obtenerSiguienteDato(self):
         return self.next
     #Metodo para asignar valor al nodo atraves de un dato o elemento
     def setDato(self,val):
@@ -17,3 +17,4 @@ class Nodo:
     #Metodo para asignar un valor a la referencia siguiente
     def setSiguiente(self,valor):
         self.next=valor
+    #Todos los cambios fueron realizados aquí
